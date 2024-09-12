@@ -10,6 +10,30 @@ symbols = {
     "D": 8
 }
 
+symbols_value = {
+    "A": 2,
+    "B": 4,
+    "C": 6,
+    "D": 8
+}
+
+def main():
+    balance = deposit()
+    lines = buy_lines()  # The lines will now correctly be between 1 and rows (3)
+    max_bet = balance // lines
+    bet = get_bet(max_bet)
+    total_bet = bet * lines
+
+    print(f"\nDu har {balance} kroner, køber {lines} linjer og væder {bet} kroner.")
+
+    slots = slot_machine(rows, columns, symbols)
+    print_test(slots)
+    winnings, won_lines = see_if_won(slots, lines, bet, symbols_value)
+    final_winnings = winnings - total_bet
+
+    print(f"\nDu vandt {winnings} kroner!\n")
+    print(f"Du vandt på linjerne: ", *won_lines)
+
 def deposit():
     print("\nSkriv hvor meget du ønsker at indsætte")
 
@@ -31,16 +55,17 @@ def deposit():
         return deposit()
 
 def buy_lines():
-    print("\nHvor mange linjer ønsker du købe? (1-10)")
+    print(f"\nHvor mange linjer ønsker du købe? (1-{rows})")
     try:
         lines = int(input())
-        if lines < 1 or lines > 10:
-            print(f"\nDu skal skrive et tal mellem 1 og 10!")
-            return buy_lines()  # Retry input on failure
+        if lines < 1 or lines > rows:
+            print(f"\nDu skal skrive et tal mellem 1 og {rows}!")
+            return buy_lines()
     except ValueError:
         print(f"\nDu skal skrive et gyldigt antal linjer!")
         return buy_lines()
     return lines
+
 
 def get_bet(max_bet):
     print(f"\nHvor mange kroner ønsker du at spille med? (1-{max_bet})")
@@ -84,17 +109,19 @@ def print_test(columns):
                 print(column[row], end="")
         print()
 
-def main():
-    balance = deposit()
-    lines = buy_lines()
-    columns = lines
-    max_bet = balance // lines
-    bet = get_bet(max_bet)
-    total_bet = bet * lines
+def see_if_won(columns, lines, bet, values):
+    winnings = 0
+    won_lines = []
+    for line in range(lines):
+        symbol = columns[0][line]
+        for column in columns:
+            symbol_check = column[line]
+            if symbol != symbol_check:
+                break
+        else:
+            winnings += values[symbol] * bet
+            won_lines.append(line + 1)
 
-    print(f"\nDu har {balance} kroner, køber {lines} linjer og væder {bet} kroner.")
-
-    slots = slot_machine(rows, columns, symbols)
-    print_test(slots)
+    return winnings, won_lines
 
 main()
