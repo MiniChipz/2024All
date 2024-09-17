@@ -1,0 +1,8 @@
+name: commandTest
+version: '1.0-SNAPSHOT'
+main: me.Mini.commandTest.CommandTest
+api-version: '1.19'
+
+commands:
+  testcommand:
+    usage: /testcommand

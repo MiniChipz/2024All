@@ -1,0 +1,98 @@
+name: miniEssentials
+version: '1.0-SNAPSHOT'
+main: me.Mini.miniEssentials.MiniEssentials
+api-version: '1.19'
+
+commands:
+  give:
+    description: Give a player an item
+    permission: miniessentials.give
+    permission-message: You don't have permission for this!
+  i:
+    description: Give a player an item
+    permission: miniessentials.give
+    permission-message: You don't have permission for this!
+
+  msg:
+    aliases: [message, besked, w]
+    description: Sende beskeder til andre spillere
+    permission: miniessentials.msg
+    permission-message: You don't have permission for this!
+
+  reply:
+    aliases: [r, svar]
+    description: Svar beskeder sendt til en spiller
+    permission: miniessentials.msg
+    permission-message: You don't have permission for this!
+
+  gamemode:
+    aliases: [gmc, gms, gmsp, gma]
+    description: Sætter en spillers gamemode
+    permission: miniessentials.gamemode
+    permission-message: You don't have permission for this!
+
+  broadcast:
+    aliases: [bc]
+    description: Send en besked til alle spillere
+    permission: miniessentials.broadcast
+    permission-message: You don't have permission for this!
+
+  setspawn:
+    description: Sætter et spawn
+    permission: miniessentials.setspawn
+    permission-message: You don't have permission for this!
+
+  spawn:
+    description: Teleportere spilleren til spawn.
+    permission: miniessentials.spawn
+    permission-message: You don't have permission for this!
+
+  fly:
+    description: Toggle flight for spillere.
+    permission: miniessentials.fly
+    permission-message: You don't have permission for this!
+
+  god:
+    description: Gør så spilleren ikke kan tage skade.
+    permission: miniessentials.god
+    permission-message: You don't have permission for this!
+
+  clearchat:
+    description: Clears chat
+    aliases: [cc]
+
+  specialbow:
+    description: Åbner en menu til special buer
+    aliases: [sb]
+
+  armorstand:
+    description: Laver en armorstand med dine ting.
+    aliases: [as]
+
+  hologram:
+    description: Laver et hologram
+    aliases: [hd]
+
+  heal:
+    description: Healer en spiller
+
+  ban:
+    description: Banner en spiller
+
+  kick:
+    description: Kicker en spiller
+
+  unban:
+    description: Fjerner ban fra en spiller
+
+  mute:
+    description: Muter en spiller
+
+  unmute:
+    description: Unmuter en spiller
+
+permissions:
+  miniessentials.spawn:
+    default: true
+    children:
+      miniessentials.msg: true

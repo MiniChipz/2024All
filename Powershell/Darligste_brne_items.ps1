@@ -1,0 +1,1 @@
+﻿Get-ChildItem "*.txt" -Path "C:\Users\D100-DBD-JaBa\Documents" -recurse | Sort-Object length | Format-Table name, length -auto #Den åbner den folder og de undermapper pga recurse  og den sortere efter størrelsen af filerne og så sætter den et format table op som viser navn og størrelsen af filerne

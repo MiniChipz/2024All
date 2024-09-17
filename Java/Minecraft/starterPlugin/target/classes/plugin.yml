@@ -1,0 +1,7 @@
+name: starterPlugin
+version: '1.0-SNAPSHOT'
+main: me.mini.starterplugin.StarterPlugin
+api-version: '1.19'
+
+commands:
+  testcommand:

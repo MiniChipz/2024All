@@ -1,0 +1,14 @@
+1. Skal ikke skrive filnavn, men alle informationer
+2. Filen skal indeholde:
+Afsender adresse
+Modtager adresse
+Indleveringsdato
+vægten
+højde x brede x dybde
+Ansat ID
+Ekstra kommentar
+
+3. Den skal kunne udskrive en pakkeliste
+hvor den viser hvor mange pakker der skal leveres på en rute
+
+Den skal kunne udskrive en liste over pakker i enkelte byer på ruten

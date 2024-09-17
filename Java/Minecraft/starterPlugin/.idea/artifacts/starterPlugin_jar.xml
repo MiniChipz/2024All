@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="starterPlugin:jar">
+    <output-path>$PROJECT_DIR$/../../../../Minecraft/localhostPlugins/plugins</output-path>
+    <root id="archive" name="starterPlugin.jar">
+      <element id="module-output" name="starterPlugin" />
+    </root>
+  </artifact>
+</component>

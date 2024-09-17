@@ -1,0 +1,1 @@
+﻿mkdir  -Path "C:\Users\D100-DBD-JaBa\Desktop" -Name "MinMappe"

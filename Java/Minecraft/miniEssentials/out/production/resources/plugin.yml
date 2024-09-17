@@ -1,0 +1,23 @@
+name: miniEssentials
+version: '1.0-SNAPSHOT'
+main: me.Mini.miniEssentials.MiniEssentials
+api-version: '1.19'
+
+commands:
+  give:
+    description: Give a player an item
+  msg:
+    aliases: [message, besked, w]
+    description: Sende beskeder til andre spillere
+
+  reply:
+    aliases: [r, svar]
+    description: Svar beskeder sendt til en spiller
+
+  gamemode:
+    aliases: [gmc, gms, gmsp, gma]
+    description: Sætter en spillers gamemode
+
+  broadcast:
+    aliases: [bc]
+    description: Send en besked til alle spillere
