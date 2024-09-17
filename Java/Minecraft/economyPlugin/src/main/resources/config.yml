@@ -1,0 +1,13 @@
+pay:
+  pay-recieve-message: '&7Du har fået &2$%amount%$ &7af &6%sender%'
+  pay-send-message: "&7Du har givet &2%amount%$ &7til &6%reciever%"
+  no-args: "&cSkriv navn og antal."
+  player-pay-self: "&cDu kan ikke pay dig selv!"
+  invalid-amount: "&cIkke gyldigt antal."
+  cannot-afford: "&cDu har ikke råd!"
+
+balance:
+  players-own-balance: "&7Din balance: &2%amount%$"
+  players-balance: "&6%player%'s &7balance: &2%amount%$"
+  usage-balance: "&cUsage: /balance <player>"
+  player-not-found-balance: "&cSpiller ikke fundet."

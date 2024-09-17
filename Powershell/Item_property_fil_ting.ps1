@@ -1,0 +1,2 @@
+﻿New-Item -ItemType File -Name "Testermanden.txt" -Path "C:\Users\D100-DBD-JaBa\Desktop\MinMappe" #Laver en ny txt fil
+Set-ItemProperty -Path "C:\Users\D100-DBD-JaBa\Desktop\MinMappe\Testermanden.txt" -Name IsReadOnly -Value $true #Laver txt filen om til en readonly fil

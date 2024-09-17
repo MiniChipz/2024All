@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Path "C:\Users\D100-DBD-JaBa\Documents" | ft name -auto #Den åbner den folder og læser hvad der er i den og skriver dem ind i en format table

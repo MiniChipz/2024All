@@ -1,0 +1,7 @@
+name: starterPlugin
+version: '${project.version}'
+main: me.mini.starterplugin.StarterPlugin
+api-version: '1.19'
+
+commands:
+  testcommand:

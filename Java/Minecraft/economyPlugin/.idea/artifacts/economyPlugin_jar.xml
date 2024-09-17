@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="economyPlugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/economyPlugin_jar</output-path>
+    <root id="archive" name="economyPlugin.jar">
+      <element id="module-output" name="economyPlugin.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/5.0/3382b8260646dd334a1b9c1b3d412fcb73d8b21/ormlite-core-5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-jdbc/5.0/176115dac16d5800ec90ca38d1141002bd2b57c6/ormlite-jdbc-5.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

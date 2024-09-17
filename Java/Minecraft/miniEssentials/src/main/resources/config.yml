@@ -1,0 +1,87 @@
+#Location of /spawn
+spawn:
+#Messages for commands and other features
+messages:
+  spawn-message: "Teleportere &e%player%&f til spawn!"
+  no-spawn-message: "Spawn doesn't exist. /setspawn"
+  set-spawn: "Spawn sat til &eX: %loc.x% Y: %loc.y% Z: %loc.z% &fi verden &e%world%"
+  block-break-cancel-message: "&cDet må du ik!"
+  block-place-cancel-message: "&cDet må du ik!"
+  player-join: "&8[&a+&8] &f%player%"
+  player-quit: "&8[&c-&8] &f%player%"
+  clearchat-message: "&fChatten blev clearet af &e%player%"
+  explosive-message: "&e%victim% &fdøde til &e%attacker%"
+  heal-message: "Du healede &e%player%"
+  heal-actionbar-message: "&eDu blev healet"
+  respawn-message: "&aDu respawnede"
+
+#Wheather players are allow to place and break blocks
+allows:
+  allow-block-break: false #Default = false
+  allow-block-place: false #Default = false
+
+#Wheather the weather, hunger level and time changes
+extra:
+  wheater-change-cancel: true #Default = true
+  hunger-change-cancel: true #Default = true
+  time-change-cancel: true #Default = true
+
+inventory:
+  inventory-name: "&6Inventory"
+  inventory-rows: 1
+
+specialbow:
+  inventory-name: "&fVælg en bue til &d%player%"
+  teleportbow-name: "&5Teleport&fBue"
+  teleportbow-recieve-message: "&fDu har fået en &5Teleport&fBue"
+  teleportbow-lore:
+  - "&fDen teleportere dig derhen du skyder."
+  - "&fDu skal være sej for at bruge den"
+  teleportbow-use-message: "&5&lWoosh"
+
+  explosivebow-name: "&4Explosive&fBue"
+  explosivebow-size: 4.0
+  explosivebow-lore:
+    - "&fDen laver en explosion derhen du skyder."
+    - "&fDu skal være sej for at bruge den"
+  explosivebow-use-message: "&e&lBOOM!"
+
+  smitebow-name: "&bSmite&fBue"
+  smitebow-lore:
+    - "&fDen hidkalder lyn derhen du skyder."
+    - "&fDu skal være sej for at bruge den"
+  smitebow-use-message: "&e&lKachow!"
+
+ban:
+  cannot-ban-op: "Du kan ikke banne denne spiller"
+  incorrect-usage: "Usage: /ban <spiller> <tid> <grund>"
+  player-not-found: "Player not found!"
+  invalid-time: "Invalid time! Example: 10s"
+  ban-message-for-player: "&cDu er blevet bannet for: &4%reason%"
+  ban-broadcast: "&8[ &4BAN &8] &7| &e%target% &fer blevet bannet for &e%reason% &fi &e%time%"
+
+kick:
+  incorrect-usage: "&fUsage: /kick <spiller> <grund>"
+  invalid-target: "&fSpiller ikke fundet"
+  cannot-kick-op: "Du kan ikke kick denne spiller"
+  kick-message-for-player: "&cDu er blevet kicket for &4%reason%"
+  kick-broadcast: "&8[ &4KICK &8] &7| &e%target% &fer blevet kicket for &e%reason%"
+
+unban:
+  incorrect-usage: "Usage: /unban <spiller>"
+  invalid-player: "Spiller ikke fundet"
+  unban-broadcast: "&8[ &2UNBAN &8] &7| &e%target% &fer blevet unbannet!"
+  non-banned-target: "&fSpilleren er ikke bannet"
+
+mute:
+  incorrect-usage: "Usage: /mute <spiller> <tid> <grund>"
+  player-not-found: "Spiller ikke fundet!"
+  invalid-time: "Invalid time! Example: 10s"
+  mute-message-for-player: "&8[ &4MUTE &8] &7| &fDu er blevet muted for: &c%reason%"
+  mute-broadcast: "&8[ &4MUTE &8] &7| &e%target% &fer blevet muted for &e%reason% &fi &e%time%"
+
+unmute:
+  incorrect-usage: "Usage: /unmute <spiller>"
+  invalid-player: "Spiller ikke fundet!"
+  unmute-broadcast: "&8[ &2UNMUTE &8] &7| &e%target% &fer blevet unmuted"
+  non-muted-target: "Spilleren er ikke muted."

@@ -1,0 +1,6 @@
+name: economyPlugin
+version: '1.0-SNAPSHOT'
+main: me.Mini.economyPlugin.EconomyPlugin
+api-version: '1.19'
+
+commands:

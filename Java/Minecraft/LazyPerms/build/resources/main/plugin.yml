@@ -1,0 +1,14 @@
+name: LazyPerms
+version: '1.0-SNAPSHOT'
+main: me.Mini.lazyPerms.LazyPerms
+api-version: '1.19'
+
+commands:
+  lp:
+    description: Manage permissions
+    usage: /lp <group/g|player/p> <add|remove> <permission|prefix|suffix>
+    permission: lazyperms.admin
+permissions:
+  lazyperms.admin:
+    description: Allows management of permissions
+    default: op
