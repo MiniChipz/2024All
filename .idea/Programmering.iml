@@ -6,12 +6,14 @@
       <sourceFolder url="file://$MODULE_DIR$/Rust/calculator_ai/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rust/fibonacci/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rust/number_guessing_game/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust/random_joke/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rust/speed_test/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rust/todolist/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Rust/calc/target" />
       <excludeFolder url="file://$MODULE_DIR$/Rust/calculator_ai/target" />
       <excludeFolder url="file://$MODULE_DIR$/Rust/fibonacci/target" />
       <excludeFolder url="file://$MODULE_DIR$/Rust/number_guessing_game/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust/random_joke/target" />
       <excludeFolder url="file://$MODULE_DIR$/Rust/speed_test/target" />
       <excludeFolder url="file://$MODULE_DIR$/Rust/todolist/target" />
     </content>
