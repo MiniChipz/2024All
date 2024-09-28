@@ -34,36 +34,18 @@ fn main() {
     let duration = Duration::new(2, 0);
 
     // match = switch, it matches the char to see what calculations are needed and then uses the function again
-    match only_char.as_str().trim() {
-        "+" => {
-            let result: i32 = num1 + num2;
-            println!("{} + {} = {}", num1, num2, result);
-            thread::sleep(duration);
-            main()
-        }
-        "-" => {
-            let result: i32 = num1 - num2;
-            println!("{} - {} = {}", num1, num2, result);
-            thread::sleep(duration);
-            main()
-        }
-        "*" => {
-            let result: i32 = num1 * num2;
-            println!("{} * {} = {}", num1, num2, result);
-            thread::sleep(duration);
-            main()
-        }
-        "/" => {
-            let result: i32 = num1 / num2;
-            println!("{} / {} = {}", num1, num2, result);
-            thread::sleep(duration);
-            main()
-        }
+    let result: i32 = match only_char.as_str().trim() {
+        "+" => num1 + num2,
+        "-" => num1 - num2,
+        "*" => num1 * num2,
+        "/" => num1 / num2,
         _ => {
             println!("Invalid calculation!");
-            thread::sleep(duration);
-            main()
+            std::thread::sleep(duration);
+            main();
+            return;
         }
-
-    }
+    };
+    println!("{} {} {} = {}", num1, only_char.as_str().trim(), num2, result);
+    main()
 }

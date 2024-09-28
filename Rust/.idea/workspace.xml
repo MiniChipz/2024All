@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/calc/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/fibonacci/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/number_guessing_game/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/random_joke/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/speed_test/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/todolist/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/jsonplaceholder_api/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/struct_test/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f50b004-49e0-4b39-a515-0507ec72ea13" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Small Projects/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Small Projects/teste.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/calc/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/.fingerprint/calc-bb0f52dee784de9f/output-bin-calc" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/.fingerprint/calc-bb0f52dee784de9f/output-bin-calc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/calc.d" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/calc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/calc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/calc.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/calc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/calc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/deps/aho_corasick-16e76b2df6e0a3a8.d" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/deps/aho_corasick-16e76b2df6e0a3a8.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/deps/calc.d" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/deps/calc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/deps/calc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/deps/calc.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/deps/calc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/deps/calc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/deps/libaho_corasick-16e76b2df6e0a3a8.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/deps/libaho_corasick-16e76b2df6e0a3a8.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/deps/libregex-a16ad10c6cea4567.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/deps/libregex-a16ad10c6cea4567.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/deps/libregex_automata-032fe49589bc5089.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/deps/libregex_automata-032fe49589bc5089.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/deps/regex-a16ad10c6cea4567.d" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/deps/regex-a16ad10c6cea4567.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/deps/regex_automata-032fe49589bc5089.d" beforeDir="false" afterPath="$PROJECT_DIR$/calc/target/debug/deps/regex_automata-032fe49589bc5089.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/060n8qjgf4rykdbaomvovrqim.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/08voyt9ocud6w389ab6w0ndc4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/0b4lrhubwb8t1jmf7dbkd4mi4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/0c5d65x9f86cbsxh6pnwb8hli.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/0fcxe5v01nufzu0kwosz9bf40.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/0n1f6c90nzzgi027w9gokuie7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/1n9s2woisqnozrw4n1r6upio5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/1vzoo0frheiiou6t35rg0fipt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/2br1scrgam2qwcjr9gei77g6b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/2ltum22u2eh3h3q7a5qq1kju0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/2mludlfz6k59mbtwgamaju96k.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/37aug424ewm9trf44khv281dl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/39gud4m4i0nwkc3n4nai6fjn6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/3btrao6su53b1fmcld1f1ob92.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/43kf7sezmi6or2jv5gn46s4b6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/4f0px6yept12tozxpa07xgs0g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/538q1b3ii3ko7n8hrb7w7x4ha.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/5q0v6560rifu94cwhnsue99uo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/5sz0jpwd549ea92d8bajotjmx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/5xxusbnbubi7ns3n3qmrumkyh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/60le3rsgcrhjgyj3llo5m9oqr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/64n1iyujupik51jkntigpdt5s.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/675ur54sftrmo5tom1g2s8nk3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/6lz97lqkwmif74ptlgfhid6pp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/6non4w0m927qvo1mn7v5cqtlo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/7edyp57dyda0pz9qfx631eus2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/7hhk10wc7iiorhxotwbc6k320.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/7m6ttii1ud44vap87qhdvcpl3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/7qyxk5uxc8ezzmtavle9g5vxn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/7s6wpnj6xas2uelx9uvnwarid.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/83bmums0tw0ivz92etgy7d4l0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/8giv1iuu1kk84d3zo09awyxxb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/8z4ybg8fdoh71j8cnk0mqnnuk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/9638ab660ad1pcatzj5i3psok.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/9nttlajt83u0854s9fdrz00wa.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/a1j35qais3v0qanrumzv4whtq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/ahol65jjruigvm6banh76iwnk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/aoith2o2n4wfx0hq4xixk2w7z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/apspt5x7yd73ykkt5trhypd3e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/aq6v4a4xxzivxza50ngzrbswb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/aqmfkhlnln31cymvnnxhcnsh2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/b4hcd0ygrpvmew473zjqskk8c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/baqspqvmlhk9dj0p7bhlr3nuj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/bd6hyvoebuc82yuecg65hurrg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/bf2xrcrraj27y3qu5jd45y8dq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/bjq228h8h2r3700o91j0w2ubt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/brgu7nnysrinq2hdtqarc4bnp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/c33iufgj6vp5jcpn7xm5s6djq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/c4enkf9l75fh5g2xube8cy33u.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/c5g5rfjpfhudwqi42kfe5dray.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/c9abqezt3xgyz0k56a1tw6e70.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/cbcnrq93slam1p33bxf0wwxsm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/ceaxzir530lizp1w8i5ty0txz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/cf9j4ec06oeu09x3xccggfkd9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/cuvritzmnl4wex4304yhw83fd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/d1eeqzyu5x5eqjabaaas64o36.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/d5x3mjyuokrs8a2er0x96air6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/d6nzumtqup7w8ahwqmgsgfzzw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/dajynsndgwgba43ly9gkbb44z.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/de8mjob087pdw96u7yivrlmn3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/dexigf3jm4szfzy2hkflcbwct.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/dm5hjmyavr8zypj0ou621jrsx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/eiv1ynb5uc0dl6q2hq52beqsr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/ewnomjkq4uz958is6sgs6zbee.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/f58t5jqpexp36529njabd1g3w.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw-0sm9edvkgj7gdd8k913yc0odz/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc/target/debug/incremental/calc-0ebnc5hbkiryi/s-h01ngoe3lx-0ad2wiw.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/firstTest.d" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/firstTest.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/firstTest.exe" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/firstTest.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/firstTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/firstTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/libppv_lite86-7cdd3f6128749d14.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/libppv_lite86-7cdd3f6128749d14.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/librand-c11f9e41372ef62b.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/librand-c11f9e41372ef62b.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/librand_chacha-ac4a497fff9c4dc3.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/librand_chacha-ac4a497fff9c4dc3.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/libzerocopy-215d3979dba1476e.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/libzerocopy-215d3979dba1476e.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/ppv_lite86-7cdd3f6128749d14.d" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/ppv_lite86-7cdd3f6128749d14.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/proc_macro2-387e46eadfdf024b.d" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/proc_macro2-387e46eadfdf024b.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/quote-bd6bbb4a10f67b05.d" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/quote-bd6bbb4a10f67b05.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/rand-c11f9e41372ef62b.d" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/rand-c11f9e41372ef62b.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/rand_chacha-ac4a497fff9c4dc3.d" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/rand_chacha-ac4a497fff9c4dc3.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/syn-fb790feac9f71c56.d" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/syn-fb790feac9f71c56.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/zerocopy-215d3979dba1476e.d" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/zerocopy-215d3979dba1476e.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.d" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.dll" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.dll.exp" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.dll.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/firstTest.d" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/firstTest.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/firstTest.exe" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/firstTest.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/firstTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/calculator_ai/target/debug/firstTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/0me71rjoywk4fcfb3t89gfbvv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/14idgvu4oqz6llvk3y1cqkrwl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/1hx4psmp4lolmkcn8uqxeo93w.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/1kp7stcb17xhiv9lgpwsif4bh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/1lz8bxws1s86g4uy1jjyo86y4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/1monwqg5ky5kvzlo9fvhfmhmm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/1mzqwbrqk8kf3ttdiz661a3bl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/1opm18vjh6rpj3t63t1bhwj9q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/1wple010s4ajb19ef8bhvxgep.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/290dwleano8eadvplasivmv5y.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/37uj5jtklhsc1d0nbh2hw42ce.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/38v0akoc3wuwypu4deoa6zgkq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/39pgv1lp7t3ct3iaw05rxgsav.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/3mi0i1fd7qlowcmwtxkkay9h1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/3q87x9phggqtf0zo5fk9x2ll8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/4i7ieb4ucr4lrchoq1ia05u2f.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/4r70p8b2hjw7zpwxda88qu1ho.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/4v4mtsaknzsh62fx3o9znj8fa.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/5bzu4fnr6gc6m61o51il0pqg9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/5fo5bh3zg2vwy3qpm5b5l2k4p.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/5oca13jwg2tgewrfm6m2fg14q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/6lzjmtwj2ijt7vwxgbfxncv6s.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/6q7rp7c9szme3wclmh4b6ijsn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/6ybv5v5j9xhk35ujpwlnxupf2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/74fjuavz70snowgddwnd9fde8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/76pwlwn59kvi08dyactnd68mi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/7eyd6vql089syctjqk0e8aimn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/7oowzq4rdz99kyv80rt1e0up2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/7y75j3ibfg90ecxsy3614hq60.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/7yhb73sxtn5fri12yrrkhjtqg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/9bwgupi12qdrwjjyg6efglde2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/9rt3tx63deoclppch4rz1oii9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/b059c8irsjyre7xwjriybkrp1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/bbp94ha9d3y1pt6kwbrv8doyi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/bd31zntl60n06vq2exeziwuy5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/c3vznaf3hr1nu2jop8px1vyj0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/cighnw4mvs51tie79jcjkh8h2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/cw2hogq05claztvg1y39slm6g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/d6py4pnit3ah2tbcyzgfa40jt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/de6t05uz73vbrk0qohy0dew37.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/dl10f5lwhaqrfv6oxfnj4k55q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/e5gvynywygwexmr2uk20fa5df.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/eigl8kec234dpl3ddmvhf2tra.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/f1m3xzss08las7tjnkz1dzkba.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh-3laros9x8m5ptzksyahkn60qx/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator_ai/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzw44oqiks-03ek9lh.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fibonacci/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/fibonacci/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/httparse-c7a992abda05a403/output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/httparse-c7a992abda05a403/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/httparse-c7a992abda05a403/root-output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/httparse-c7a992abda05a403/root-output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-082dd85a00bee070/build-script-build.exe" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-082dd85a00bee070/build-script-build.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-082dd85a00bee070/build_script_build-082dd85a00bee070.d" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-082dd85a00bee070/build_script_build-082dd85a00bee070.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-082dd85a00bee070/build_script_build-082dd85a00bee070.exe" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-082dd85a00bee070/build_script_build-082dd85a00bee070.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-082dd85a00bee070/build_script_build-082dd85a00bee070.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-082dd85a00bee070/build_script_build-082dd85a00bee070.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-082dd85a00bee070/build_script_build.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-082dd85a00bee070/build_script_build.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-aff48736b1e3acbe/out/probe0.ll" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-aff48736b1e3acbe/out/probe0.ll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-aff48736b1e3acbe/output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-aff48736b1e3acbe/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-aff48736b1e3acbe/root-output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/lock_api-aff48736b1e3acbe/root-output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/native-tls-1160b38849674231/root-output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/native-tls-1160b38849674231/root-output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/parking_lot_core-2634f38e6b964751/output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/parking_lot_core-2634f38e6b964751/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/parking_lot_core-2634f38e6b964751/root-output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/parking_lot_core-2634f38e6b964751/root-output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/proc-macro2-0d2f073d643e3b57/out/proc_macro2.d" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/proc-macro2-0d2f073d643e3b57/out/proc_macro2.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/proc-macro2-0d2f073d643e3b57/output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/proc-macro2-0d2f073d643e3b57/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/proc-macro2-0d2f073d643e3b57/root-output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/proc-macro2-0d2f073d643e3b57/root-output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/serde_json-3b16a04d4d18a16a/output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/serde_json-3b16a04d4d18a16a/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/serde_json-3b16a04d4d18a16a/root-output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/serde_json-3b16a04d4d18a16a/root-output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-1c6aa883ca8277fd/out/probe0.ll" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-1c6aa883ca8277fd/out/probe0.ll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-1c6aa883ca8277fd/root-output" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-1c6aa883ca8277fd/root-output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-e9d8502ba9089eb6/build-script-build.exe" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-e9d8502ba9089eb6/build-script-build.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-e9d8502ba9089eb6/build_script_build-e9d8502ba9089eb6.d" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-e9d8502ba9089eb6/build_script_build-e9d8502ba9089eb6.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-e9d8502ba9089eb6/build_script_build-e9d8502ba9089eb6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-e9d8502ba9089eb6/build_script_build-e9d8502ba9089eb6.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-e9d8502ba9089eb6/build_script_build-e9d8502ba9089eb6.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-e9d8502ba9089eb6/build_script_build-e9d8502ba9089eb6.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-e9d8502ba9089eb6/build_script_build.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/build/slab-e9d8502ba9089eb6/build_script_build.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/proc_macro2-387e46eadfdf024b.d" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/proc_macro2-387e46eadfdf024b.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/quote-bd6bbb4a10f67b05.d" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/quote-bd6bbb4a10f67b05.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/serde_derive-f944d1d573cf6dcc.d" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/serde_derive-f944d1d573cf6dcc.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/serde_derive-f944d1d573cf6dcc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/serde_derive-f944d1d573cf6dcc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/serde_derive-f944d1d573cf6dcc.dll.exp" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/serde_derive-f944d1d573cf6dcc.dll.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/serde_derive-f944d1d573cf6dcc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/serde_derive-f944d1d573cf6dcc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/syn-9f6bae04c7d280b1.d" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/syn-9f6bae04c7d280b1.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/tokio_macros-eb22f58b18713336.d" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/tokio_macros-eb22f58b18713336.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/tokio_macros-eb22f58b18713336.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/tokio_macros-eb22f58b18713336.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/tokio_macros-eb22f58b18713336.dll.exp" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/tokio_macros-eb22f58b18713336.dll.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/tokio_macros-eb22f58b18713336.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/jsonplaceholder_api/target/debug/deps/tokio_macros-eb22f58b18713336.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/firstTest.d" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/firstTest.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/firstTest.exe" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/firstTest.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/firstTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/firstTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/libppv_lite86-7cdd3f6128749d14.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/libppv_lite86-7cdd3f6128749d14.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/librand-c11f9e41372ef62b.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/librand-c11f9e41372ef62b.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/librand_chacha-ac4a497fff9c4dc3.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/librand_chacha-ac4a497fff9c4dc3.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/libzerocopy-215d3979dba1476e.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/libzerocopy-215d3979dba1476e.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/ppv_lite86-7cdd3f6128749d14.d" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/ppv_lite86-7cdd3f6128749d14.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/rand-c11f9e41372ef62b.d" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/rand-c11f9e41372ef62b.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/rand_chacha-ac4a497fff9c4dc3.d" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/rand_chacha-ac4a497fff9c4dc3.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/zerocopy-215d3979dba1476e.d" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/deps/zerocopy-215d3979dba1476e.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/firstTest.d" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/firstTest.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/firstTest.exe" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/firstTest.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/firstTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/number_guessing_game/target/debug/firstTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/0me71rjoywk4fcfb3t89gfbvv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/1hx4psmp4lolmkcn8uqxeo93w.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/1kp7stcb17xhiv9lgpwsif4bh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/1lz8bxws1s86g4uy1jjyo86y4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/1mzqwbrqk8kf3ttdiz661a3bl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/1opm18vjh6rpj3t63t1bhwj9q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/1wple010s4ajb19ef8bhvxgep.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/290dwleano8eadvplasivmv5y.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/39pgv1lp7t3ct3iaw05rxgsav.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/3vnkody4gimiil534r00cm89a.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/4i7ieb4ucr4lrchoq1ia05u2f.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/4r70p8b2hjw7zpwxda88qu1ho.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/5bzu4fnr6gc6m61o51il0pqg9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/60j1assnsil9716anla0pj6bb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/69g475wvz69ptf6co4z5bcd6d.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/6q7rp7c9szme3wclmh4b6ijsn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/75p99u40ndcvwycjvs0poi3de.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/78fh1gbtupsa6ioilxgp5qq6q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/7oowzq4rdz99kyv80rt1e0up2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/7y75j3ibfg90ecxsy3614hq60.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/7yhb73sxtn5fri12yrrkhjtqg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/a4w4mhr3jg67h4rqruwdu3t1y.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/b059c8irsjyre7xwjriybkrp1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/b5oadhw6hiimseu0mdfe0342o.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/b8kf6hn9idyfh4lag9cfpl263.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/bbp94ha9d3y1pt6kwbrv8doyi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/bd31zntl60n06vq2exeziwuy5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/c3vznaf3hr1nu2jop8px1vyj0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/cighnw4mvs51tie79jcjkh8h2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/de6t05uz73vbrk0qohy0dew37.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/dl10f5lwhaqrfv6oxfnj4k55q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/eigl8kec234dpl3ddmvhf2tra.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o-4suvqeidm2bkpwv1flhs70n4r/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_guessing_game/target/debug/incremental/firstTest-1mpwlysrsrdmv/s-gzxfes5f74-11oh27o.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_joke/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/random_joke/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_joke/target/debug/deps/proc_macro2-387e46eadfdf024b.d" beforeDir="false" afterPath="$PROJECT_DIR$/random_joke/target/debug/deps/proc_macro2-387e46eadfdf024b.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_joke/target/debug/deps/quote-bd6bbb4a10f67b05.d" beforeDir="false" afterPath="$PROJECT_DIR$/random_joke/target/debug/deps/quote-bd6bbb4a10f67b05.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_joke/target/debug/deps/syn-fb790feac9f71c56.d" beforeDir="false" afterPath="$PROJECT_DIR$/random_joke/target/debug/deps/syn-fb790feac9f71c56.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_joke/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.d" beforeDir="false" afterPath="$PROJECT_DIR$/random_joke/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_joke/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.dll" beforeDir="false" afterPath="$PROJECT_DIR$/random_joke/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_joke/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.dll.exp" beforeDir="false" afterPath="$PROJECT_DIR$/random_joke/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.dll.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_joke/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/random_joke/target/debug/deps/zerocopy_derive-96cafc8827ed0ab6.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speed_test/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/speed_test/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/todolist/target/.rustc_info.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="5ry65jys" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2mFGbAKt1DAWzh0oL6zQ1xElVOb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Run firstTest [firstTest].executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run function_test [function_test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Malte/Documents/Programmering/Rust&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.cargo.check&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Cargo.Run firstTest [firstTest]">
+    <configuration name="Run firstTest [firstTest]" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package firstTest --bin firstTest" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/number_guessing_game" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run function_test [function_test]" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="run --package function_test --bin function_test" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/function_test" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run firstTest [firstTest]" />
+        <item itemvalue="Cargo.Run firstTest [firstTest]" />
+        <item itemvalue="Cargo.Run function_test [function_test]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f50b004-49e0-4b39-a515-0507ec72ea13" name="Changes" comment="" />
+      <created>1726664980935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726664980935</updated>
+      <workItem from="1726664981653" duration="402000" />
+      <workItem from="1726695913329" duration="3600000" />
+      <workItem from="1726732342717" duration="653000" />
+      <workItem from="1726953147466" duration="244000" />
+      <workItem from="1726953593291" duration="1346000" />
+      <workItem from="1726954958784" duration="104000" />
+      <workItem from="1726955071024" duration="1977000" />
+      <workItem from="1726996528453" duration="745000" />
+      <workItem from="1727557933068" duration="51000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
