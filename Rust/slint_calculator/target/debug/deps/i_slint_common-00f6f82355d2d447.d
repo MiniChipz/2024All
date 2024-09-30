@@ -1,0 +1,10 @@
+C:\Users\Malte\Documents\Programmering\Rust\slint_calculator\target\debug\deps\libi_slint_common-00f6f82355d2d447.rmeta: C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\lib.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\builtin_structs.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\enums.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\key_codes.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\sharedfontdb.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\README.md
+
+C:\Users\Malte\Documents\Programmering\Rust\slint_calculator\target\debug\deps\i_slint_common-00f6f82355d2d447.d: C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\lib.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\builtin_structs.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\enums.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\key_codes.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\sharedfontdb.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\README.md
+
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\lib.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\builtin_structs.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\enums.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\key_codes.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\sharedfontdb.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-common-1.8.0\README.md:

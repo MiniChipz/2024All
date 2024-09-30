@@ -1,0 +1,10 @@
+C:\Users\Malte\Documents\Programmering\Rust\slint_calculator\target\debug\deps\libclipboard_win-c3afac949f9fed45.rmeta: C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\lib.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\formats.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\raw.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\dib.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\image.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\utils.rs
+
+C:\Users\Malte\Documents\Programmering\Rust\slint_calculator\target\debug\deps\clipboard_win-c3afac949f9fed45.d: C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\lib.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\formats.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\raw.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\dib.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\image.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\utils.rs
+
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\lib.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\formats.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\raw.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\dib.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\image.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\utils.rs:

@@ -1,0 +1,8 @@
+C:\Users\Malte\Documents\Programmering\Rust\slint_calculator\target\debug\deps\libi_slint_backend_qt-f8d5a68a53c75f3a.rmeta: C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\lib.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\accessible_generated.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\key_generated.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\README.md
+
+C:\Users\Malte\Documents\Programmering\Rust\slint_calculator\target\debug\deps\i_slint_backend_qt-f8d5a68a53c75f3a.d: C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\lib.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\accessible_generated.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\key_generated.rs C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\README.md
+
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\lib.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\accessible_generated.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\key_generated.rs:
+C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-backend-qt-1.8.0\README.md:

@@ -1,0 +1,3 @@
+cargo:rustc-check-cfg=cfg(slint_debug_property)
+cargo:rerun-if-changed=C:\Users\Malte\.cargo\registry\src\index.crates.io-6f17d22bba15001f\i-slint-compiler-1.8.0\widgets
+cargo:rustc-env=SLINT_WIDGETS_LIBRARY=C:\Users\Malte\Documents\Programmering\Rust\slint_calculator\target\debug\build\i-slint-compiler-80e9f6a180c55e36\out\included_library.rs
