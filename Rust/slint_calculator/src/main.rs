@@ -81,7 +81,7 @@ fn main() {
         let app = weak.unwrap();
         let mut state = state.borrow_mut();
         if let Ok(val) = value.parse::<i32>() {
-            state.current
+            state.current();
         app.set_Value(app.get_Value() * 10 + val);
         return
     }
