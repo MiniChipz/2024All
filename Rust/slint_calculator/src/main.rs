@@ -1,4 +1,7 @@
-#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+use std::cell::RefCell;
+use std::rc::Rc;
+
+#[cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 slint::slint!{
     import { Button, VerticalBox } from "std-widgets.slint";
@@ -13,7 +16,7 @@ slint::slint!{
 
         in property <string> text;
         Rectangle {
-            background: ta.pressed ? grey : ta.has-hover ? #42414468 : #ffffff;
+            background: ta.pressed ? grey : ta.has-hover ? #42414468 : #ffffff60;
             border-radius: 4px;
             border-width: 2px;
             border-color: self.background.darker(20%);
@@ -66,7 +69,7 @@ slint::slint!{
         }
     }
 }
-#[derive(default)]
+#[derive(Default)]
 struct CalcState {
     prev_value: i32,
     current_value: i32,
@@ -81,7 +84,7 @@ fn main() {
         let app = weak.unwrap();
         let mut state = state.borrow_mut();
         if let Ok(val) = value.parse::<i32>() {
-            state.current
+            state.current_value = val;
         app.set_Value(app.get_Value() * 10 + val);
         return
     }
