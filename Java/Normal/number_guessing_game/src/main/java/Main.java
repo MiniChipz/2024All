@@ -19,7 +19,6 @@ public class Main {
 
         } catch (Exception e) {
             System.out.println("Du skal skrive et tal!");
-            main(["ww"]);
         }
     }
 
