@@ -11,6 +11,6 @@ fun main() {
             } else {
                 println("Forkert! Prøv igen")
             }
-        } else { println("You need to write a valid number!") }
+        } else { println("Du skal skrive et tal fra 1-10!") }
     }
 }
