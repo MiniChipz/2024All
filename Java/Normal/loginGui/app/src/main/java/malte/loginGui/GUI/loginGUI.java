@@ -1,18 +1,23 @@
-package malte.loginGui;
+package malte.loginGui.GUI;
+
+import malte.loginGui.MainApp;
 
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.RoundRectangle2D;
+import java.sql.SQLException;
 
-public class GUI extends JFrame {
+public class loginGUI extends JFrame {
     JTextField jTextField1;
     JPasswordField jPasswordField1;
     JButton jButton1;
     private JLabel jLabel1, jLabel2, jLabel3;
+    private MainApp mainApp;
 
-    public GUI() {
+    public loginGUI(MainApp mainApp) {
+        this.mainApp = mainApp;
         initComponents();
     }
 
@@ -73,6 +78,7 @@ public class GUI extends JFrame {
 
         jButton1 = new JButton("Login");
         styleButton(jButton1);
+        jButton1.setCursor(new Cursor(Cursor.HAND_CURSOR));
         gbc.gridx = 0;
         gbc.gridy = 5;
         gbc.gridwidth = 2;
@@ -83,7 +89,11 @@ public class GUI extends JFrame {
 
         jButton1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
-                performLogin();
+                try {
+                    performLogin();
+                } catch (SQLException e) {
+                    throw new RuntimeException(e);
+                }
             }
         });
 
@@ -92,7 +102,11 @@ public class GUI extends JFrame {
             @Override
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
-                    performLogin();  // Simulate button click on Enter
+                    try {
+                        performLogin();  // Simulate button click on Enter
+                    } catch (SQLException ex) {
+                        throw new RuntimeException(ex);
+                    }
                 }
             }
         });
@@ -102,13 +116,12 @@ public class GUI extends JFrame {
         setLocationRelativeTo(null);
     }
 
-    private void performLogin() {
+    private void performLogin() throws SQLException {
         String username = jTextField1.getText();
         String password = new String(jPasswordField1.getPassword());
 
-        // Add your login logic here
-        JOptionPane.showMessageDialog(GUI.this,
-                "Login attempt with\nUsername: " + username + "\nPassword: " + password);
+        // Send data to MainApp for login processing
+        mainApp.login(username, password);
     }
 
     private void styleTextField(JTextField textField) {
@@ -117,7 +130,7 @@ public class GUI extends JFrame {
         textField.setCaretColor(Color.WHITE);
         textField.setBorder(BorderFactory.createCompoundBorder(
                 new RoundedBorder(10, new Color(70, 70, 70)),
-                BorderFactory.createEmptyBorder(0, 1, 0, 10)  // Adjusted inner padding
+                BorderFactory.createEmptyBorder(-2, 1, 0, 10)  // Adjusted inner padding
         ));
         textField.setFont(new Font("Segoe UI", Font.PLAIN, 14));
         textField.setPreferredSize(new Dimension(textField.getPreferredSize().width, 40)); // Increased height slightly
@@ -134,21 +147,8 @@ public class GUI extends JFrame {
         button.setOpaque(true);
     }
 
-    public static void main(String args[]) {
-        try {
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new GUI().setVisible(true);
-            }
-        });
-    }
-
     // Custom rounded border class
-    private static class RoundedBorder extends AbstractBorder {
+    static class RoundedBorder extends AbstractBorder {
         private int radius;
         private Color color;
 

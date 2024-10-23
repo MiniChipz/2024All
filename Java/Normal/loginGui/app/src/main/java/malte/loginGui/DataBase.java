@@ -20,10 +20,8 @@ public class DataBase {
 
             System.out.println();
             System.out.println("Inserting users");
-            insertUser(conn, "Malte", "kode", "Malte Feldthaus");
-            insertUser(conn, "test", "kode", "test er");
-            insertUser(conn, "test2", "kode", "test2 er");
-            insertUser(conn, "test3", "kode", "test3 er");
+            insertUser(conn, "admin", "Password", "System Administrator", true);
+            insertUser(conn, "greggy", "Gregtech", "Minecraft GregTech", false);
 
             System.out.println();
             System.out.println("Displaying users:");
@@ -43,6 +41,12 @@ public class DataBase {
 
     }
 
+    public static Connection databaseConnect() throws SQLException {
+        Connection conn = null;
+        conn = DriverManager.getConnection("jdbc:sqlite:csc205.db");
+        return conn;
+    }
+
     private static void displayDatabase(Connection conn, String tablename) throws SQLException {
         String selectSQL = "SELECT * FROM " + tablename;
         Statement stmt = conn.createStatement();
@@ -53,24 +57,45 @@ public class DataBase {
             System.out.println("Full name: " + rs.getString("fullName"));
             System.out.println("Username: " + rs.getString("username"));
             System.out.println("Password: " + rs.getString("password"));
+            System.out.println("Admin: " + rs.getString("admin"));
         }
         System.out.println("-------------------------------------");
     }
 
-    private static String[] checkLogin(Connection conn, String tablename, String username, String password) throws SQLException {
+    public static String[] checkLogin(Connection conn, String tablename, String username, String password) throws SQLException {
         String selectSQL = "SELECT * FROM " + tablename;
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(selectSQL);
-        String[] str = {"", ""};
-        return str;
+
+        while(rs.next()) {
+            if (rs.getString("username").equals(username) && rs.getString("password").equals(password)) {
+                return new String[] {username, password, rs.getString("fullName"), String.valueOf(rs.getBoolean("admin"))};
+            }
+        }
+
+        return new String[] {"null"};
     }
 
-    private static void insertUser(Connection conn, String username, String password, String fullName) throws SQLException {
-        String insertSQL = "INSERT INTO Users(username, password, fullName) VALUES(?,?,?)";
+    public static boolean doesUserExists(Connection conn, String username) throws SQLException {
+        String selectSQL = "SELECT * FROM Users";
+        Statement stmt = conn.createStatement();
+        ResultSet rs = stmt.executeQuery(selectSQL);
+
+        while(rs.next()) {
+            if (rs.getString("username").equals(username)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static void insertUser(Connection conn, String username, String password, String fullName, boolean admin) throws SQLException {
+        String insertSQL = "INSERT INTO Users(username, password, fullName, admin) VALUES(?,?,?,?)";
         PreparedStatement pstmt = conn.prepareStatement(insertSQL);
         pstmt.setString(1, username);
         pstmt.setString(2, password);
         pstmt.setString(3, fullName);
+        pstmt.setBoolean(4, admin);
         pstmt.executeUpdate();
     }
 
@@ -78,9 +103,10 @@ public class DataBase {
         String createTable = "" +
                 "CREATE TABLE Users " +
                 "( " +
-                "username varchar(255), " +
-                "password varchar(255), " +
-                "fullName varchar(255) " +
+                "username varchar(10), " +
+                "password varchar(64), " +
+                "fullName varchar(100), " +
+                "admin BOOLEAN" +
                 "); " +
                 "";
         Statement stmt = conn.createStatement();
