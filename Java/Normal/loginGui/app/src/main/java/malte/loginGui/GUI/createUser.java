@@ -38,7 +38,12 @@ public class createUser extends JFrame {
         usernameField = createStyledTextField();
         passwordField = createStyledPasswordField();
         fullNameField = createStyledTextField();
-        String[] adminOptions = {"No", "Yes"};
+        String[] adminOptions;
+        if (isUserAdmin) {
+            adminOptions = new String[]{"No", "Yes"};
+        } else {
+            adminOptions = new String[]{"no"};
+        }
         adminComboBox = new JComboBox<>(adminOptions);
         styleComboBox(adminComboBox);
 
@@ -65,7 +70,7 @@ public class createUser extends JFrame {
         styleButton(submitButton);
         submitButton.addActionListener(e -> {
             try {
-                handleSubmit(isUserAdmin);
+                handleSubmit();
             } catch (SQLException ex) {
                 throw new RuntimeException(ex);
             }
@@ -133,27 +138,18 @@ public class createUser extends JFrame {
         button.setCursor(new Cursor(Cursor.HAND_CURSOR));
     }
 
-    private void handleSubmit(boolean isUserAdmin) throws SQLException {
+    private void handleSubmit() throws SQLException {
         String username = usernameField.getText();
         String password = new String(passwordField.getPassword());
         String fullName = fullNameField.getText();
         boolean isAdmin = adminComboBox.getSelectedIndex() == 1;
 
-        if (mainApp.registerUser(username, password, fullName, isAdmin, isUserAdmin)) {
-            if (isAdmin) {
-                if (isUserAdmin) {
-                    DataBase.insertUser(DataBase.databaseConnect(), username, password, fullName, true);
-                    JOptionPane.showMessageDialog(this, "User created successfully!");
-                    clearFields();
-                } else {
-                    JOptionPane.showMessageDialog(this, "User creation failed. You're not admin!",
-                            "Error", JOptionPane.ERROR_MESSAGE);
-                }
-            } else {
-                JOptionPane.showMessageDialog(this, "User created successfully!");
-                DataBase.insertUser(DataBase.databaseConnect(), username, password, fullName, false);
-                clearFields();
-            }
+        if (mainApp.registerUser(username, password, fullName, isAdmin)) {
+            DataBase.insertUser(DataBase.databaseConnect(), username, password, fullName, isAdmin);
+            JOptionPane.showMessageDialog(this, "User created successfully!");
+        } else {
+            JOptionPane.showMessageDialog(this, "User creation failed.",
+                    "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
 

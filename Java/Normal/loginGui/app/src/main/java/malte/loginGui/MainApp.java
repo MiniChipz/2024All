@@ -51,7 +51,7 @@ public class MainApp {
             }
         }
     }
-    public boolean registerUser(String username, String password, String fullName, boolean isAdmin, boolean isUserAdmin) throws SQLException {
+    public boolean registerUser(String username, String password, String fullName, boolean isAdmin) throws SQLException {
         return username != null && !username.trim().isEmpty() &&
                 password != null && !password.trim().isEmpty() &&
                 fullName != null && !fullName.trim().isEmpty() &&
