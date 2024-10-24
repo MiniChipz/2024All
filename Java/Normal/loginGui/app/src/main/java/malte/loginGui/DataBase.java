@@ -11,18 +11,6 @@ public class DataBase {
             conn = DriverManager.getConnection("jdbc:sqlite:csc205.db");
             System.out.println("Database connected!");
 
-            try {
-                deleteTable(conn);
-            } catch (Exception ignored) {
-
-            }
-            createTable(conn);
-
-            System.out.println();
-            System.out.println("Inserting users");
-            insertUser(conn, "admin", "Password", "System Administrator", true);
-            insertUser(conn, "greggy", "Gregtech", "Minecraft GregTech", false);
-
             System.out.println();
             System.out.println("Displaying users:");
             displayDatabase(conn, "Users");
@@ -89,7 +77,7 @@ public class DataBase {
         return false;
     }
 
-    private static void insertUser(Connection conn, String username, String password, String fullName, boolean admin) throws SQLException {
+    public static void insertUser(Connection conn, String username, String password, String fullName, boolean admin) throws SQLException {
         String insertSQL = "INSERT INTO Users(username, password, fullName, admin) VALUES(?,?,?,?)";
         PreparedStatement pstmt = conn.prepareStatement(insertSQL);
         pstmt.setString(1, username);

@@ -1,5 +1,6 @@
 package malte.loginGui.GUI;
 
+import malte.loginGui.DataBase;
 import malte.loginGui.MainApp;
 import javax.swing.*;
 import java.awt.*;
@@ -13,7 +14,7 @@ public class createUser extends JFrame {
     private final JComboBox<String> adminComboBox;
     private final MainApp mainApp;
 
-    public createUser() {
+    public createUser(boolean isUserAdmin) {
         mainApp = new MainApp();
         setTitle("Create User");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -64,7 +65,7 @@ public class createUser extends JFrame {
         styleButton(submitButton);
         submitButton.addActionListener(e -> {
             try {
-                handleSubmit();
+                handleSubmit(isUserAdmin);
             } catch (SQLException ex) {
                 throw new RuntimeException(ex);
             }
@@ -132,18 +133,27 @@ public class createUser extends JFrame {
         button.setCursor(new Cursor(Cursor.HAND_CURSOR));
     }
 
-    private void handleSubmit() throws SQLException {
+    private void handleSubmit(boolean isUserAdmin) throws SQLException {
         String username = usernameField.getText();
         String password = new String(passwordField.getPassword());
         String fullName = fullNameField.getText();
         boolean isAdmin = adminComboBox.getSelectedIndex() == 1;
 
-        if (mainApp.registerUser(username, password, fullName, isAdmin)) {
-            JOptionPane.showMessageDialog(this, "User created successfully!");
-            clearFields();
-        } else {
-            JOptionPane.showMessageDialog(this, "User creation failed. Please try again.",
-                    "Error", JOptionPane.ERROR_MESSAGE);
+        if (mainApp.registerUser(username, password, fullName, isAdmin, isUserAdmin)) {
+            if (isAdmin) {
+                if (isUserAdmin) {
+                    DataBase.insertUser(DataBase.databaseConnect(), username, password, fullName, true);
+                    JOptionPane.showMessageDialog(this, "User created successfully!");
+                    clearFields();
+                } else {
+                    JOptionPane.showMessageDialog(this, "User creation failed. You're not admin!",
+                            "Error", JOptionPane.ERROR_MESSAGE);
+                }
+            } else {
+                JOptionPane.showMessageDialog(this, "User created successfully!");
+                DataBase.insertUser(DataBase.databaseConnect(), username, password, fullName, false);
+                clearFields();
+            }
         }
     }
 

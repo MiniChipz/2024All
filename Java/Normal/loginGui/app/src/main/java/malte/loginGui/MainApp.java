@@ -34,7 +34,7 @@ public class MainApp {
 
             if (!user[0].equals("null")) {
                 JOptionPane.showMessageDialog(null, "Login Successful! \nWelcome, " + user[2] + "\nAdmin: " + user[3]);
-                SwingUtilities.invokeLater(createUser::new);
+                SwingUtilities.invokeLater(() -> new createUser(Boolean.parseBoolean(user[3])));
             } else {
                 JOptionPane.showMessageDialog(null, "Invalid Username or Password");
             }
@@ -51,12 +51,12 @@ public class MainApp {
             }
         }
     }
-    public boolean registerUser(String username, String password, String fullName, boolean isAdmin) throws SQLException {
-        // Validate input
+    public boolean registerUser(String username, String password, String fullName, boolean isAdmin, boolean isUserAdmin) throws SQLException {
         return username != null && !username.trim().isEmpty() &&
                 password != null && !password.trim().isEmpty() &&
                 fullName != null && !fullName.trim().isEmpty() &&
                 !DataBase.doesUserExists(DataBase.databaseConnect(), username);
+
         // Here you would typically:
         // 1. Hash the password
         // 2. Check if username already exists
