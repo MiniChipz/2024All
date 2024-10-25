@@ -97,13 +97,12 @@ public class loginGUI extends JFrame {
             }
         });
 
-        // Add key listener to password field to trigger login on "Enter"
         jPasswordField1.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     try {
-                        performLogin();  // Simulate button click on Enter
+                        performLogin();
                     } catch (SQLException ex) {
                         throw new RuntimeException(ex);
                     }
@@ -119,8 +118,6 @@ public class loginGUI extends JFrame {
     private void performLogin() throws SQLException {
         String username = jTextField1.getText();
         String password = new String(jPasswordField1.getPassword());
-
-        // Send data to MainApp for login processing
         mainApp.login(username, password);
     }
 
@@ -130,10 +127,10 @@ public class loginGUI extends JFrame {
         textField.setCaretColor(Color.WHITE);
         textField.setBorder(BorderFactory.createCompoundBorder(
                 new RoundedBorder(10, new Color(70, 70, 70)),
-                BorderFactory.createEmptyBorder(-2, 1, 0, 10)  // Adjusted inner padding
+                BorderFactory.createEmptyBorder(-2, 1, 0, 10)
         ));
         textField.setFont(new Font("Segoe UI", Font.PLAIN, 14));
-        textField.setPreferredSize(new Dimension(textField.getPreferredSize().width, 40)); // Increased height slightly
+        textField.setPreferredSize(new Dimension(textField.getPreferredSize().width, 40));
     }
 
     private void styleButton(JButton button) {
@@ -147,12 +144,11 @@ public class loginGUI extends JFrame {
         button.setOpaque(true);
     }
 
-    // Custom rounded border class
-    static class RoundedBorder extends AbstractBorder {
-        private int radius;
-        private Color color;
+    public static class RoundedBorder extends AbstractBorder {
+        private final int radius;
+        private final Color color;
 
-        RoundedBorder(int radius, Color color) {
+        public RoundedBorder(int radius, Color color) {
             this.radius = radius;
             this.color = color;
         }

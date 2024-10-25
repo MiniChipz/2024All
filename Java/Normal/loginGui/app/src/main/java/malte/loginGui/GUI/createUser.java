@@ -13,37 +13,22 @@ public class createUser extends JFrame {
     private final JTextField fullNameField;
     private final JComboBox<String> adminComboBox;
     private final MainApp mainApp;
+    private final JPanel mainPanel;
 
     public createUser(boolean isUserAdmin) {
         mainApp = new MainApp();
-        setTitle("Create User");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(400, 500);
-        setLocationRelativeTo(null);
-        setResizable(false);
-
-        // Set dark theme colors
-        Color backgroundColor = new Color(33, 33, 33);
-        Color foregroundColor = new Color(200, 200, 200);
-        Color fieldBackground = new Color(55, 55, 55);
-        Color buttonColor = new Color(41, 128, 185);
 
         // Main panel
-        JPanel mainPanel = new JPanel();
+        mainPanel = new JPanel();
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
-        mainPanel.setBackground(backgroundColor);
+        mainPanel.setBackground(new Color(33, 33, 33));
         mainPanel.setBorder(new EmptyBorder(20, 20, 20, 20));
 
         // Components
         usernameField = createStyledTextField();
         passwordField = createStyledPasswordField();
         fullNameField = createStyledTextField();
-        String[] adminOptions;
-        if (isUserAdmin) {
-            adminOptions = new String[]{"No", "Yes"};
-        } else {
-            adminOptions = new String[]{"no"};
-        }
+        String[] adminOptions = isUserAdmin ? new String[]{"No", "Yes"} : new String[]{"No"};
         adminComboBox = new JComboBox<>(adminOptions);
         styleComboBox(adminComboBox);
 
@@ -76,9 +61,10 @@ public class createUser extends JFrame {
             }
         });
         mainPanel.add(submitButton);
+    }
 
-        add(mainPanel);
-        setVisible(true);
+    public JPanel getMainPanel() {
+        return mainPanel;
     }
 
     private JLabel createStyledLabel(String text) {
@@ -98,7 +84,7 @@ public class createUser extends JFrame {
         field.setFont(new Font("Segoe UI", Font.PLAIN, 14));
         field.setBorder(BorderFactory.createCompoundBorder(
                 new loginGUI.RoundedBorder(10, new Color(70, 70, 70)),
-                BorderFactory.createEmptyBorder(-2, 1, 0, 10)  // Adjusted inner padding
+                BorderFactory.createEmptyBorder(-2, 1, 0, 10)
         ));
         return field;
     }
@@ -112,7 +98,7 @@ public class createUser extends JFrame {
         field.setFont(new Font("Segoe UI", Font.PLAIN, 14));
         field.setBorder(BorderFactory.createCompoundBorder(
                 new loginGUI.RoundedBorder(10, new Color(70, 70, 70)),
-                BorderFactory.createEmptyBorder(-2, 1, 0, 10)  // Adjusted inner padding
+                BorderFactory.createEmptyBorder(-2, 1, 0, 10)
         ));
         return field;
     }
@@ -147,6 +133,7 @@ public class createUser extends JFrame {
         if (mainApp.registerUser(username, password, fullName, isAdmin)) {
             DataBase.insertUser(DataBase.databaseConnect(), username, password, fullName, isAdmin);
             JOptionPane.showMessageDialog(this, "User created successfully!");
+            clearFields();
         } else {
             JOptionPane.showMessageDialog(this, "User creation failed.",
                     "Error", JOptionPane.ERROR_MESSAGE);

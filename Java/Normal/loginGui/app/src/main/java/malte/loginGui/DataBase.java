@@ -50,18 +50,49 @@ public class DataBase {
         System.out.println("-------------------------------------");
     }
 
+
+    public static ResultSet getAllUsers(Connection conn) throws SQLException {
+        String selectSQL = "SELECT * FROM Users";
+        Statement stmt = conn.createStatement();
+        return stmt.executeQuery(selectSQL);
+    }
+
     public static String[] checkLogin(Connection conn, String tablename, String username, String password) throws SQLException {
         String selectSQL = "SELECT * FROM " + tablename;
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(selectSQL);
 
         while(rs.next()) {
-            if (rs.getString("username").equals(username) && rs.getString("password").equals(password)) {
-                return new String[] {username, password, rs.getString("fullName"), String.valueOf(rs.getBoolean("admin"))};
+            if (rs.getString("username").equals(username.toLowerCase()) && rs.getString("password").equals(password)) {
+                return new String[] {username.toLowerCase(), password, rs.getString("fullName"), String.valueOf(rs.getBoolean("admin"))};
             }
         }
 
         return new String[] {"null"};
+    }
+
+    public static void deleteUser(Connection conn, String username) throws SQLException {
+        {
+            String selectSQL = "SELECT * FROM Users";
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery(selectSQL);
+
+            while(rs.next()) {
+                if (rs.getString("username").equalsIgnoreCase(username)) {
+                    String deleteUser = "DELETE FROM Users WHERE username = ?";
+                    PreparedStatement pstmt = conn.prepareStatement(deleteUser);
+                    pstmt.setString(1, username);
+
+                    int affectedRows = pstmt.executeUpdate(); // Returns the number of affected rows
+
+                    if (affectedRows > 0) {
+                        System.out.println("User " + username + " deleted successfully.");
+                    } else {
+                        System.out.println("User " + username + " not found.");
+                    }
+                }
+                }
+            }
     }
 
     public static boolean doesUserExists(Connection conn, String username) throws SQLException {
@@ -70,7 +101,7 @@ public class DataBase {
         ResultSet rs = stmt.executeQuery(selectSQL);
 
         while(rs.next()) {
-            if (rs.getString("username").equals(username)) {
+            if (rs.getString("username").equals(username.toLowerCase())) {
                 return true;
             }
         }
