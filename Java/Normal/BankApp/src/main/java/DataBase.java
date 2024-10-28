@@ -1,8 +1,4 @@
-package malte.loginGui;
-
 import java.sql.*;
-import java.util.Collections;
-import java.util.List;
 
 public class DataBase {
     public static void main(String[] args) {
@@ -30,7 +26,9 @@ public class DataBase {
     }
 
     public static Connection databaseConnect() throws SQLException {
-        return DriverManager.getConnection("jdbc:sqlite:csc205.db");
+        Connection conn = null;
+        conn = DriverManager.getConnection("jdbc:sqlite:csc205.db");
+        return conn;
     }
 
     private static void displayDatabase(Connection conn, String tablename) throws SQLException {
