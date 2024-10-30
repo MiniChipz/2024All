@@ -11,7 +11,7 @@ public class ConfettiPanel extends JPanel {
 
     public ConfettiPanel() {
         setBackground(Color.WHITE);
-        setLayout(new GridBagLayout()); // Center the label
+        setLayout(new GridBagLayout());
         setupTimer();
     }
 
@@ -24,11 +24,10 @@ public class ConfettiPanel extends JPanel {
 
     public void startConfetti() {
         confettiPieces.clear();
-        // Increased number of confetti pieces and spread them across the width
         for (int i = 0; i < 1000; i++) {
             confettiPieces.add(new Confetti(
-                    random.nextInt(getWidth()),  // Random X position
-                    -random.nextInt(50)          // Start slightly above the panel
+                    random.nextInt(getWidth()),
+                    -random.nextInt(50)
             ));
         }
         animationTimer.start();
@@ -70,17 +69,17 @@ public class ConfettiPanel extends JPanel {
         public Confetti(int startX, int startY) {
             this.x = startX;
             this.y = startY;
-            this.velocityX = random.nextDouble() * 8 - 4;  // More horizontal spread
-            this.velocityY = random.nextDouble() * 2 + 1;  // Slower initial fall
+            this.velocityX = random.nextDouble() * 8 - 4;
+            this.velocityY = random.nextDouble() * 2 + 1;
             this.color = new Color(
                     random.nextInt(255),
                     random.nextInt(255),
                     random.nextInt(255)
             );
             this.settled = false;
-            this.size = random.nextInt(6) + 4;  // Random size between 4 and 9
-            this.rotationAngle = random.nextDouble() * 0.2 - 0.1;  // Random rotation speed
-            this.currentRotation = random.nextDouble() * Math.PI * 2;  // Random initial rotation
+            this.size = random.nextInt(6) + 4;
+            this.rotationAngle = random.nextDouble() * 0.2 - 0.1;
+            this.currentRotation = random.nextDouble() * Math.PI * 2;
         }
 
         public void update() {
@@ -88,10 +87,9 @@ public class ConfettiPanel extends JPanel {
 
             x += velocityX;
             y += velocityY;
-            velocityY += 0.15;  // Reduced gravity for slower fall
+            velocityY += 0.15;
             currentRotation += rotationAngle;
 
-            // Add some wind effect
             velocityX += (random.nextDouble() - 0.5) * 0.3;
 
             if (y > getHeight()) {
@@ -103,24 +101,37 @@ public class ConfettiPanel extends JPanel {
         public void draw(Graphics2D g) {
             g.setColor(color);
 
-            // Save the current transform
             AffineTransform oldTransform = g.getTransform();
 
-            // Translate to position and rotate
             g.translate(x, y);
             g.rotate(currentRotation);
 
-            // Draw a more interesting shape (diamond)
             int[] xPoints = {0, size/2, 0, -size/2};
             int[] yPoints = {-size/2, 0, size/2, 0};
             g.fillPolygon(xPoints, yPoints, 4);
 
-            // Restore the original transform
             g.setTransform(oldTransform);
         }
 
         public boolean isSettled() {
             return settled;
         }
+    }
+}
+
+class ConfettiController {
+    private final String[] randomStrings = {
+            "DO GUITAR",
+            "PROGRAM C#"
+    };
+
+    private final Random random = new Random();
+
+    public String handleButtonClick() {
+        return getRandomString();
+    }
+
+    private String getRandomString() {
+        return randomStrings[random.nextInt(randomStrings.length)];
     }
 }
