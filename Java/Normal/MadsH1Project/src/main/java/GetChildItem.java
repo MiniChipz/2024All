@@ -16,7 +16,12 @@ public class GetChildItem {
         int antal = 0;
         if (files != null) {
             for (String fileName : files) {
-                System.out.println(fileName);
+                File file = new File(dir, fileName);
+                if (file.isFile()) {
+                    System.out.print(fileName + " ");
+                } else if (file.isDirectory()) {
+                    System.out.print("\u001B[33m" + fileName +"\u001B[0m ");
+                }
                 antal++;
             }
         }
