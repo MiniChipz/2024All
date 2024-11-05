@@ -1,7 +1,4 @@
 import java.io.File;
-import java.nio.file.Files;
-import java.util.Arrays;
-import java.util.List;
 
 public class GetChildItem {
     public static void main(String path) {
