@@ -1,13 +1,8 @@
 import java.io.File;
 
 public class GetChildItem {
-    public static void main(String path) {
-        File dir = new File(path);
-        try {
-            dir.mkdir();
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+    public static void ls() {
+        File dir = new File(String.valueOf(Main.currentDir));
         String[] files = dir.list();
 
         int antal = 0;

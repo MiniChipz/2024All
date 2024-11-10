@@ -2,17 +2,22 @@ import java.io.File;
 
 public class Mkdir {
     public static void main(String path) {
-        File dir = new File(path);
-        boolean bol = false;
-        try {
-            bol = dir.mkdir();
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
+        File dir = null;
+        if (new File(Main.currentDir, path).getParentFile().isDirectory()) {
+            dir = new File(Main.currentDir, path);
+        } else if (new File(path).isAbsolute()) {
+            dir = new File(path);
         }
-        if (bol) {
-            System.out.println(path + " Was successfully made.");
+
+        if (!dir.exists()) {
+            try {
+                boolean bol = dir.mkdir();
+                System.out.println(bol ? "Successfully created " + path : "Couldn't create " + path);
+            } catch (Exception e) {
+                System.out.println("Error creating directory: " + e.getMessage());
+            }
         } else {
-            System.out.println(path + " Couldn't be made.");
+            System.out.println("Directory already exists: " + path);
         }
     }
 }
