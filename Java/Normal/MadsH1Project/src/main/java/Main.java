@@ -1,4 +1,6 @@
 import java.io.File;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Main {
@@ -29,9 +31,15 @@ public class Main {
 
                 case "cat" -> Cat.readFile(args[1]);
 
-                case "greg" -> MakeFile.greg(args[1]);
+                case "greg", "touch" -> MakeFile.greg(args[1]);
 
                 case "ping" -> Ping.pinga(args[1]);
+
+                case "find" -> FindFile.find(currentDir, args[1]);
+
+                case "rename" -> Rename.newName(args[1]);
+
+                case "date" -> System.out.println(getDate());
 
                 case "help" ,"?" -> help();
 
@@ -49,5 +57,9 @@ public class Main {
     static void help() {
         System.out.println("All commands:");
         System.out.println("ls -> Show files and directories in current directory\ncls -> Clears terminal\necho -> Writes <argument> in terminal \nmkdir -> Creates a directory in current directory or in specified directory \ncd -> Changes directory \nrm -> deletes a directory \ncat -> reads a file and displays in terminal \nexit -> exits the terminal \nhelp -> lists all commands");
+    }
+    static String getDate() {
+        DateTimeFormatter date = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+        return date.format(LocalDateTime.now());
     }
 }
