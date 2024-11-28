@@ -17,15 +17,19 @@ public class MainWindow extends JFrame {
             setTitle("Terminal");
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             setLayout(new BorderLayout());
-            setSize(1000, 600);
+            setSize(1200, 600);
             setLocationRelativeTo(null);
 
             // Initialize JTextArea
             output = new JTextArea();
+            output.requestFocusInWindow();
+            output.setCaretColor(new Color(255, 255, 255));
+            output.setForeground(new Color(255,255,255));
             output.setEditable(true);
             output.setFont(new Font("Monospaced", Font.PLAIN, 14));
             output.setLineWrap(true);
             output.setWrapStyleWord(true);
+            output.setBackground(new Color(40, 44, 52));
 
             // Set initial prompt
             lockCaretPosition = Main.currentDir.toString().length() + 1;

@@ -20,8 +20,6 @@ public class Main {
             switch (args[0].toLowerCase()) {
                 case "ls" -> output = GetChildItem.ls();
 
-                case "cls" -> clear();
-
                 case "echo", "write-host" -> output = input.replace("echo ", "");
 
                 case "mkdir" -> output = Mkdir.main(args[1]);
@@ -50,13 +48,12 @@ public class Main {
 
                 default -> output = "Invalid command";
             }
+            if (input.equals("clear") || input.equals("cls")) {
+                output = "";
+            }
             return output;
     }
 
-    static void clear() {
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
-    }
     static String prgm() {
         ChangeDirectory.cd("C:\\Users\\Malte\\Documents\\Programmering");
         return "";
