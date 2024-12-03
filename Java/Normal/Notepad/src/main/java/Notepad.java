@@ -3,6 +3,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.io.*;
 
 public class Notepad extends JFrame implements ActionListener {
@@ -11,6 +12,12 @@ public class Notepad extends JFrame implements ActionListener {
     private JTextArea textArea;
     private File currentFile;
     private JFileChooser fileChooser;
+    private JMenuItem globalSaveAsButton;
+    private JMenuItem globalSaveButton;
+    private JMenuItem globalOpenButton;
+    private JMenuItem globalZoomInButton;
+    private JMenuItem globalZoomOutButton;
+    private JMenuItem globalZoomResetButton;
 
     public static void main(String[] args) {
         new Notepad().setVisible(true);
@@ -34,7 +41,9 @@ public class Notepad extends JFrame implements ActionListener {
         toolBar();
         textArea = new JTextArea();
         JScrollPane scrollPane = new JScrollPane(textArea);
+
         add(scrollPane, BorderLayout.CENTER);
+        addShortcut(textArea);
     }
 
     private void toolBar() {
@@ -60,6 +69,7 @@ public class Notepad extends JFrame implements ActionListener {
         newMenuItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                currentFileName = "Unnamed file";
                 setTitle(currentFileName);
                 textArea.setText("");
 
@@ -69,12 +79,15 @@ public class Notepad extends JFrame implements ActionListener {
         fileMenu.add(newMenuItem);
         JMenuItem openMenuItem = getjMenuItem(newMenuItem);
         fileMenu.add(openMenuItem);
+        globalOpenButton = openMenuItem;
 
         JMenuItem saveAsMenuItem = getjMenuItem();
         fileMenu.add(saveAsMenuItem);
+        globalSaveAsButton = saveAsMenuItem;
 
         JMenuItem saveMenuItem = getMenuItem(saveAsMenuItem);
         fileMenu.add(saveMenuItem);
+        globalSaveButton = saveMenuItem;
 
         return fileMenu;
     }
@@ -84,7 +97,9 @@ public class Notepad extends JFrame implements ActionListener {
         saveMenuItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (currentFile == null) saveAsMenuItem.doClick();
+                if (currentFile == null) {
+                    saveAsMenuItem.doClick();
+                }
 
                 if (currentFile == null) return;
 
@@ -173,23 +188,7 @@ public class Notepad extends JFrame implements ActionListener {
     }
 
     private JMenu addFormatMenu() {
-        JMenu formatMenu = new JMenu("Format");
-
-        JCheckBoxMenuItem wordWrapMenuItem = new JCheckBoxMenuItem("Word wrap");
-        wordWrapMenuItem.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                boolean isChecked = wordWrapMenuItem.getState();
-                if (isChecked) {
-                    textArea.setLineWrap(true);
-                    textArea.setWrapStyleWord(true);
-                } else {
-                    textArea.setLineWrap(false);
-                    textArea.setWrapStyleWord(false);
-                }
-            }
-        });
-        formatMenu.add(wordWrapMenuItem);
+        JMenu formatMenu = getjMenu();
 
         JMenu alignTextMenu = new JMenu("Align text");
 
@@ -215,6 +214,27 @@ public class Notepad extends JFrame implements ActionListener {
         return formatMenu;
     }
 
+    private JMenu getjMenu() {
+        JMenu formatMenu = new JMenu("Format");
+
+        JCheckBoxMenuItem wordWrapMenuItem = new JCheckBoxMenuItem("Word wrap");
+        wordWrapMenuItem.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                boolean isChecked = wordWrapMenuItem.getState();
+                if (isChecked) {
+                    textArea.setLineWrap(true);
+                    textArea.setWrapStyleWord(true);
+                } else {
+                    textArea.setLineWrap(false);
+                    textArea.setWrapStyleWord(false);
+                }
+            }
+        });
+        formatMenu.add(wordWrapMenuItem);
+        return formatMenu;
+    }
+
     private JMenu addViewMenu() {
         JMenu viewMenu = new JMenu("View");
 
@@ -233,6 +253,7 @@ public class Notepad extends JFrame implements ActionListener {
             }
         });
         zoomMenu.add(zoomInMenuItem);
+        globalZoomInButton = zoomInMenuItem;
 
         JMenuItem zoomOutMenuItem = new JMenuItem("Zoom out");
 
@@ -244,11 +265,12 @@ public class Notepad extends JFrame implements ActionListener {
                 textArea.setFont(new Font(
                         currentFont.getName(),
                         currentFont.getStyle(),
-                        currentFont.getSize() + 1
+                        currentFont.getSize() - 1
                 ));
             }
         });
         zoomMenu.add(zoomOutMenuItem);
+        globalZoomOutButton = zoomOutMenuItem;
 
         JMenuItem zoomRestoreMenuItem = new JMenuItem("Reset zoom");
         zoomRestoreMenuItem.addActionListener(new ActionListener() {
@@ -263,15 +285,74 @@ public class Notepad extends JFrame implements ActionListener {
             }
         });
         zoomMenu.add(zoomRestoreMenuItem);
+        globalZoomResetButton = zoomRestoreMenuItem;
 
         viewMenu.add(zoomMenu);
 
         return viewMenu;
     }
 
+    private void addShortcut(JTextArea textArea) {
+    KeyStroke saveKeyStroke = KeyStroke.getKeyStroke("control S");
+    KeyStroke openKeyStroke = KeyStroke.getKeyStroke("control O");
+    KeyStroke zoomOutKeyStroke = KeyStroke.getKeyStroke("control MINUS");
+    KeyStroke zoomInKeyStroke = KeyStroke.getKeyStroke("control PLUS");
+    KeyStroke zoomResetKeyStroke = KeyStroke.getKeyStroke("control R");
 
+    InputMap inputMap = textArea.getInputMap(JComponent.WHEN_FOCUSED);
+    ActionMap actionMap = textArea.getActionMap();
 
+    String saveActionKey = "SaveShortcut";
+    String openActionKey = "OpenShortcut";
+    String zoomOutActionKey = "ZoomOutShortcut";
+    String zoomInActionKey = "ZoomInShortcut";
+    String zoomResetActionKey = "ZoomResetShortcut";
 
+    inputMap.put(saveKeyStroke, saveActionKey);
+    inputMap.put(openKeyStroke, openActionKey);
+    inputMap.put(zoomOutKeyStroke, zoomOutActionKey);
+    inputMap.put(zoomInKeyStroke, zoomInActionKey);
+    inputMap.put(zoomResetKeyStroke, zoomResetActionKey);
+
+    actionMap.put(zoomResetActionKey, new AbstractAction() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            globalZoomResetButton.doClick();
+        }
+    });
+
+    actionMap.put(zoomInActionKey, new AbstractAction() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            globalZoomInButton.doClick();
+        }
+    });
+
+    actionMap.put(zoomOutActionKey, new AbstractAction() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            globalZoomOutButton.doClick();
+        }
+    });
+
+    actionMap.put(openActionKey, new AbstractAction() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            globalOpenButton.doClick();
+        }
+    });
+
+    actionMap.put(saveActionKey, new AbstractAction() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            if (currentFileName.equals("Unnamed file")) {
+                globalSaveAsButton.doClick();
+            } else {
+                globalSaveButton.doClick();
+            }
+        }
+    });
+}
 
     @Override
     public void actionPerformed(ActionEvent e) {
