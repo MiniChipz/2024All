@@ -209,8 +209,6 @@ public class Notepad extends JFrame implements ActionListener {
             }
         });
         alignTextMenu.add(alignTextRightMenuItem);
-
-
         return formatMenu;
     }
 
